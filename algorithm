@@ -1,0 +1,9 @@
+get input value to array: arr
+create 2 variable: index-max, index-min to storage index of max number, min number in the arr , start value = 0.
+find max, min
+-create term variable: i= 1 to i= 5 and compare arr[i] with arr[index-max] and arr[index-min] ,
+-arr[i] > index-max => index-max = i
+-arr[i] < arr[index-min] => index-min = i
+If we sum everything except arr[index-max] we got the minimum sum, basicly let sum of 5 minus arr[index-max]
+If we sum everything except arr[index-min] we got the maximum sum, basicly let sum of 5 minus arr[index-min]
+print out result
